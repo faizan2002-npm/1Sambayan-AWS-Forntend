@@ -39,7 +39,7 @@ const AdminNavbar = () => {
             <NavbarBrand to="/" tag={Link}>
               <Image
                 alt="..."
-                src={"http://ec2-54-160-216-157.compute-1.amazonaws.com/views/uploads/" + siteSetting.logo}
+                src={"http://ec2-52-206-101-95.compute-1.amazonaws.com/views/uploads/" + siteSetting.logo}
                 fluid
                 className="w-50 mx-auto d-block"
               />

@@ -19,7 +19,7 @@ function camelize(str) {
 const ExpandedComponent = ({ data }) => {
     const [defaultData, setDefaultSlideData] = useState({
         title: data.title,
-        image: "http://ec2-54-160-216-157.compute-1.amazonaws.com/views/uploads/" + data.image,
+        image: "http://ec2-52-206-101-95.compute-1.amazonaws.com/views/uploads/" + data.image,
     })
     const [featuredImage, setFeaturedImage] = useState({ image: data.image, defaultImage: defaultData.image })
     const [backgroundImage, setBackgroundImage] = useState({ backgroundImage: data.backgroundImage, defaultbackgroundImage: defaultData.backgroundImage })

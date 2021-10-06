@@ -65,7 +65,7 @@ class SiteSettingPage extends React.Component {
                 zip: response.result.data.site[0].zip,
                 aboutSite:response.result.data.site[0].footer,
                 copyright:response.result.data.site[0].copyright,
-                siteLogo: "http://ec2-54-160-216-157.compute-1.amazonaws.com/views/uploads/" + response.result.data.site[0].logo,
+                siteLogo: "http://ec2-52-206-101-95.compute-1.amazonaws.com/views/uploads/" + response.result.data.site[0].logo,
             });  
         
     }

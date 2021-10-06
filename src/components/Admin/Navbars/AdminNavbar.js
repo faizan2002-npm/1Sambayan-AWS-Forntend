@@ -52,7 +52,7 @@ const AdminNavbar = (props) => {
                   <span className="avatar avatar-sm rounded-circle">
                     <img
                       alt="..."
-                      src={"http://ec2-54-160-216-157.compute-1.amazonaws.com/views/uploads/" + profileImage}
+                      src={"http://ec2-52-206-101-95.compute-1.amazonaws.com/views/uploads/" + profileImage}
                     />
                   </span>
                   <Media className="ml-2 d-none d-lg-block">

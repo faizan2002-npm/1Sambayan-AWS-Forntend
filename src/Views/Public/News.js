@@ -67,7 +67,7 @@ const News = () => {
                                     {
                                         (postData.length>0)?postData.map((e, index) => (
                                             <div key={`id_${e._id}_${index}`} className="card" style={{
-                                                backgroundImage: `url('${"http://ec2-54-160-216-157.compute-1.amazonaws.com/views/uploads/" + e.image}')`
+                                                backgroundImage: `url('${"http://ec2-52-206-101-95.compute-1.amazonaws.com/views/uploads/" + e.image}')`
                                             }}>
                                                 <div className="card-body">
 
