@@ -19,8 +19,8 @@ const ExpandedComponent = ({ data }) => {
     const [defaultData, setDefaultSlideData] = useState({
         title: data.title,
         description: data.description,
-        image: "http://redfruitfarm.in/views/uploads/" + data.image,
-        backgroundImage: "http://redfruitfarm.in/views/uploads/" + data.backgroundImage,
+        image: "http://ec2-54-160-216-157.compute-1.amazonaws.com/views/uploads/" + data.image,
+        backgroundImage: "http://ec2-54-160-216-157.compute-1.amazonaws.com/views/uploads/" + data.backgroundImage,
     })
     const [featuredImage, setFeaturedImage] = useState({ image: data.image, defaultImage: defaultData.image })
     const [backgroundImage, setBackgroundImage] = useState({ backgroundImage: data.backgroundImage, defaultbackgroundImage: defaultData.backgroundImage })

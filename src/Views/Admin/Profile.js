@@ -41,7 +41,7 @@ class EditProfile extends React.Component {
             admin_lastName: response.result.data.user.lastName,
             admin_email: response.result.data.user.email,
             admin_phone: response.result.data.user.phone,
-            admin_pic: "http://redfruitfarm.in/views/uploads/" + response.result.data.user.profileImage,
+            admin_pic: "http://ec2-54-160-216-157.compute-1.amazonaws.com/views/uploads/" + response.result.data.user.profileImage,
         });
     }
 

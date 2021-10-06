@@ -94,7 +94,7 @@ const Events = () => {
                                 <h1>Events</h1>
                                 {
                                     eventsData.map((e, index) => (
-                                        <PostCard key={`id_${e._id}_${index}`} heading={e.title} text={e.description} time={e.createdAt} video={"http://redfruitfarm.in/views/uploads/" + e.image} image={false} grid={true} />
+                                        <PostCard key={`id_${e._id}_${index}`} heading={e.title} text={e.description} time={e.createdAt} video={"http://ec2-54-160-216-157.compute-1.amazonaws.com/views/uploads/" + e.image} image={false} grid={true} />
                                     ))
                                 }
 

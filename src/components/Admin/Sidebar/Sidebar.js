@@ -172,7 +172,7 @@ const Sidebar = (props) => {
             <img
               alt={logo.imgAlt}
               className="navbar-brand-img"
-              src={"http://redfruitfarm.in/views/uploads/" + siteSetting.logo}
+              src={"http://ec2-54-160-216-157.compute-1.amazonaws.com/views/uploads/" + siteSetting.logo}
             />
           </NavbarBrand>
         ) : null}
@@ -184,7 +184,7 @@ const Sidebar = (props) => {
                 <span className="avatar avatar-sm rounded-circle">
                   <img
                     alt="..."
-                    src={"http://redfruitfarm.in/views/uploads/" + profileImage}
+                    src={"http://ec2-54-160-216-157.compute-1.amazonaws.com/views/uploads/" + profileImage}
                   />
                 </span>
               </Media>

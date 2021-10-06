@@ -2,9 +2,9 @@ const axios = require("axios");
 const qs = require("querystring");
 
 //DEV
-const baseURL = "http://localhost:8080";
+// const baseURL = "http://localhost:8080";
 //Production
-// const baseURL = "https://sambayan-dev.herokuapp.com";
+const baseURL = "http://ec2-54-160-216-157.compute-1.amazonaws.com";
 
 export const postRequest = async (url, body = {}, headers = {}) => {
   let xform = qs.stringify(body);

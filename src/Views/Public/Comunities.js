@@ -33,7 +33,7 @@ const Comunities = () => {
                                 <h1>Communities</h1>
                                 {
                                     comunitiesData.map((e, index) => (
-                                        <PostCard key={`id_${e._id}_${index}`} heading={e.title} text={e.description} time={e.createdAt} video={false} image={"http://redfruitfarm.in/views/uploads/" + e.image} grid={true} />
+                                        <PostCard key={`id_${e._id}_${index}`} heading={e.title} text={e.description} time={e.createdAt} video={false} image={"http://ec2-54-160-216-157.compute-1.amazonaws.com/views/uploads/" + e.image} grid={true} />
                                     ))
                                 }
 
