@@ -33,7 +33,7 @@ const Parties = () => {
                                 <h1>Parties</h1>
                                 {
                                     partiesData.map((e, index) => (
-                                        <PostCard key={`id_${e._id}_${index}`} text={e.title} image={"http://ec2-52-206-101-95.compute-1.amazonaws.com/views/uploads/" + e.image} grid={false} row={false} />
+                                        <PostCard key={`id_${e._id}_${index}`} text={e.title} image={"http://ec2-184-72-179-219.compute-1.amazonaws.com/views/uploads/" + e.image} grid={false} row={false} />
                                     ))
                                 }
 
