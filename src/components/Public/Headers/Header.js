@@ -56,7 +56,7 @@ const Header = () => {
                         <Container fluid>
                             <Navbar as="nav" variant="dark" expand="lg">
                                 <Link className="navbar-brand" to="/">
-                                    <Image src={"http://ec2-184-72-179-219.compute-1.amazonaws.com/views/uploads/" + siteSetting.logo} alt="" fluid />
+                                    <Image src={"https://184.72.179.219/views/uploads/" + siteSetting.logo} alt="" fluid />
                                 </Link>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">

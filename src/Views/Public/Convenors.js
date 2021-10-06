@@ -61,7 +61,7 @@ const Convenors = () => {
                                             <div className="col-lg-3 col-md-6 col-12  my-3" key={`id_${e._id}_${index}`}>
                                                 <div className="card border-0">
                                                     <a to="single_convenors.html">
-                                                        <img src={"http://ec2-184-72-179-219.compute-1.amazonaws.com/views/uploads/" + e.image} className="card-img-top" alt="..." />
+                                                        <img src={"https://184.72.179.219/views/uploads/" + e.image} className="card-img-top" alt="..." />
                                                     </a>
                                                     <div className="card-body">
                                                         <h6 className="card-title">

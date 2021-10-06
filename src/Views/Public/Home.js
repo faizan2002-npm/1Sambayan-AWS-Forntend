@@ -572,14 +572,14 @@ const Home = () => {
                                 console.log("slides", e);
                                 return (
                                     <Carousel.Item key={`id_${e._id}_${index}`}>
-                                        <Image src={"http://ec2-184-72-179-219.compute-1.amazonaws.com/views/uploads/" + e.backgroundImage} className="d-block w-100" alt="" fluid />
+                                        <Image src={"https://184.72.179.219/views/uploads/" + e.backgroundImage} className="d-block w-100" alt="" fluid />
                                         {
                                             (index === 0) ? <>
                                                 <Carousel.Caption>
                                                     <Container>
                                                         <Row className="justify-content-center">
                                                             <Col lg={10} md={10} xs={12}>
-                                                                <Image src={"http://ec2-184-72-179-219.compute-1.amazonaws.com/views/uploads/" + e.image} alt="" fluid />
+                                                                <Image src={"https://184.72.179.219/views/uploads/" + e.image} alt="" fluid />
                                                             </Col>
                                                         </Row>
                                                     </Container>
@@ -625,7 +625,7 @@ const Home = () => {
                                 }
                                 {
                                     latestPosts.map((e, index) => (
-                                        <PostCard key={`id_${e._id}_${index}`} heading={e.title} text={e.description} time={e.createdAt} video={"http://ec2-184-72-179-219.compute-1.amazonaws.com/views/uploads/" + e.image} image={false} grid={true} />
+                                        <PostCard key={`id_${e._id}_${index}`} heading={e.title} text={e.description} time={e.createdAt} video={"https://184.72.179.219/views/uploads/" + e.image} image={false} grid={true} />
                                     ))
                                 }
                                 <Row>
@@ -644,7 +644,7 @@ const Home = () => {
                                 <h1>{eventUpdatesSection.heading}</h1>
                                 {
                                     eventUpdates.map((e, index) => (
-                                        <PostCard key={`id_${e._id}_${index}`} heading={e.title} text={e.description} time={e.createdAt} video={"http://ec2-184-72-179-219.compute-1.amazonaws.com/views/uploads/" + e.image} image={false} grid={true} />
+                                        <PostCard key={`id_${e._id}_${index}`} heading={e.title} text={e.description} time={e.createdAt} video={"https://184.72.179.219/views/uploads/" + e.image} image={false} grid={true} />
                                     ))
                                 }
                                 <Row>
@@ -663,7 +663,7 @@ const Home = () => {
                                 <h1>{communitiesSection.heading}</h1>
                                 {
                                     communities.map((e, index) => (
-                                        <PostCard key={`id_${e._id}_${index}`} heading={e.title} text={e.description} time={e.createdAt} video={false} image={"http://ec2-184-72-179-219.compute-1.amazonaws.com/views/uploads/" + e.image} grid={true} />
+                                        <PostCard key={`id_${e._id}_${index}`} heading={e.title} text={e.description} time={e.createdAt} video={false} image={"https://184.72.179.219/views/uploads/" + e.image} grid={true} />
                                     ))
                                 }
                                 <Row>
@@ -683,7 +683,7 @@ const Home = () => {
                                 <OwlCarousel className='owl-theme' {...carouselOptions} >
                                     {
                                         candidates.map((e, index) => (
-                                            <PostCard key={`id_${e._id}_${index}`} text={e.title} image={"http://ec2-184-72-179-219.compute-1.amazonaws.com/views/uploads/" + e.image} grid={false} row={false} />
+                                            <PostCard key={`id_${e._id}_${index}`} text={e.title} image={"https://184.72.179.219/views/uploads/" + e.image} grid={false} row={false} />
                                         ))
                                     }
                                 </OwlCarousel>
@@ -699,7 +699,7 @@ const Home = () => {
                                 <OwlCarousel className='owl-theme' {...carouselOptions} >
                                     {
                                         parties.map((e, index) => (
-                                            <PostCard key={`id_${e._id}_${index}`} text={e.title} image={"http://ec2-184-72-179-219.compute-1.amazonaws.com/views/uploads/" + e.image} grid={false} row={false} />
+                                            <PostCard key={`id_${e._id}_${index}`} text={e.title} image={"https://184.72.179.219/views/uploads/" + e.image} grid={false} row={false} />
                                         ))
                                     }
                                 </OwlCarousel>
